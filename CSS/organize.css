@@ -1,0 +1,47 @@
+.theme-font {
+	font-family: 'Oswald', sans-serif;
+}
+
+.title-font {
+	font-family: 'Pacifico', cursive;
+}
+
+.custom-progress-bar
+{
+	margin: 0px auto;
+	display: block;
+	max-width: 650px;
+}
+
+.hr {
+	width: 90%;
+	border-top: 1px solid #000000;
+}
+
+.center {
+	text-align: center;
+	margin: 0px auto;
+	display: block;
+}
+
+.list-element {
+	margin: 0px auto;
+	display: block;
+	width: 30%;
+	min-width: 200px;
+}
+
+.custom-container {
+	margin: 0px auto;
+	display: block;
+	padding-bottom: 20px;
+}
+
+button {
+	background-color: #ffffff;
+	border: none;
+}
+
+a {
+	color: black;
+}
