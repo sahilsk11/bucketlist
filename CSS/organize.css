@@ -27,8 +27,7 @@
 .list-element {
 	margin: 0px auto;
 	display: block;
-	width: 30%;
-	min-width: 200px;
+	height: 20% ;
 }
 
 .custom-container {
@@ -42,6 +41,35 @@ button {
 	border: none;
 }
 
+.blue {
+	color: #0047ba;
+}
+
 a {
 	color: black;
+}
+
+.title-img {
+	width: 50%;
+	margin: 0px auto;
+	max-width: 400px;
+	min-width: 200px;
+	display: block;
+}
+
+ul {
+	padding-left: 10px;
+}
+
+.description {
+	font-family: 'Roboto', sans-serif;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 17px;
+}
+
+.back {
+	position: absolute;
+	left: 5px;
+	top: 5px;
 }

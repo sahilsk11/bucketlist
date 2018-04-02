@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta name = "viewport" content="initial-scale=1.0">
+		<link href="CSS/bootstrap.css" rel="stylesheet">
+		<link href="CSS/organize.css" rel="stylesheet">
+		<link rel="icon" href="icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico|Roboto" rel="stylesheet">
+
+		<title>Engineering Bucketlist</title>
+
+		<script>
+			function goTo()
+			{
+				window.location = "index.html";
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<button class="btn btn-primary back theme-font" onclick="goTo()">BACK</button>
+		<h1 class="text-center title-font">Engineering Bucket List</h1>
+
+		<div class="container-fluid custom-container theme-font">
+			<h1 class="text-center"> #3: CREATING STANDARDIZED COMMUNICATION PROTOCOLS FOR AUTONOMOUS VEHICLES</h1>
+			<img src="3.png" class="title-img">
+
+			<h3 class="theme-font">DESCRIPTION:</h5>
+			<p class=" description">
+				Self-driving vehicles have become one of the hottest trends in today's automobile world, with companies such as Tesla, Google, and Uber producing "driverless vehicles." Though progress in this field has come a long way, there are still numerous technological challenges preventing truly autonomous driving.
+				<br><br>
+				A few challenges include:
+			</p>
+			<ul class="description">
+				<li>Difficulty at traffic signals to recognize the correct light</li>
+				<li>Difficulty at stopping at stop signs and knowing whether it's the car's turn to go</li>
+				<li>Merging lanes</li>
+				<li>Responding to emergency vehicles/following directions from a traffic police officer in case of emergency</li>
+			</ul>
+			<br><br>
+			<p class="description">
+				To create an environment in which vehicles would be able to do this, there would have to be a way for the car to "communicate" with its environment. This would include with other vehicles, with police, and with traffic signals as well.<br><br>
+
+				The new bluetooth protocol announced last year, <a href="https://www.bluetooth.com/bluetooth-technology/topology-options/le-mesh" target="_blank" class="blue">Bluetooth Mesh</a> would offer the best way to do this. The technology supports a "mesh" network of connecting m:m (many-to-many) devices, and transferring data over short distances. 
+				<br><br>
+
+				This challenge is to create a series of standardized protocols a vehicle would be able to exhange with it's environment, such as the order of vehicles at a stop sign, directions to be followed from a police officer, and data from vehicle to vehicle about tasks such as merging lanes.
+				<br><br>
+				Admittedly, full automation at this level would take years to perfect and equip at every stop light, emergency vehicle, and car on the road, but I hope to set the groundwork for it to be perfected in the future.
+
+
+			</p>
+
+			<h3 class="theme-font">WHERE I AM NOW:</h5>
+				<p class="description">
+					I've extensively researched current autonomous vehicle technology and how the current solution to the challenges mentioned above include either hard-coding every possible scenario, using machine-learning to analyze driver responses to different situations, or simply requiring a driver to be present and ready to take over at all times.
+					<br>
+					<br>
+					Additionally, I've learned how the Bluetooth Mesh protocol works, and how data can be transferred between a series of devices.
+				</p>
+
+			<h3 class="theme-font">WHAT'S LEFT:</h3>
+			<p class="description">
+				To first understand the technology in real-world applications, I'm reprogramming my RC cars at home to follow specific instructions over Bluetooth Mesh. Using a Raspberry Pi as the source, I will design an experiment to transmit instructions to the car, such as slow down here, turn left, etc.
+			</p>  
+
+		</div>
+	</body>
+</html>
